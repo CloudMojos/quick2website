@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.body2 {
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  width:1000px; /* Change width to 100% to make it responsive */
+  height: 75vh;
+  margin-left: auto; /* Use margin-left and margin-right to center horizontally */
+  margin-right: auto;
+  display: block;
+  justify-content: center;
+  align-items: center; /* Change align-content to align-items */
+  position: relative;
+
+}
+.paragraphHolder{
+    margin:auto;
+    align-items: center;
+    justify-content:center;
+    position:relative;
+    width: 100%;
+    height: 674.2px;
+}
+.paragraphHolder p{
+    top: 20%;
+    font-family: "Montserrat";
+    text-align: justify;
+    position: relative;
+    font-size: 21.6px;
+    font-weight: bold;
+    line-height: 150%;
+  
+ 
+}
+@media (min-width: 1200px) {
+  .paragraphHolder p{
+    left: 150px;
+  }
+    
+  }
+@media (max-width: 1200px) {
+
+  .paragraphHolder{
+
+      height: 674.2px;
+      width:auto;
+  }
+
+  .body2 {
+ width:auto;
+
+
+}
+.paragraphHolder p{
+left:10%;
+width: 800px;
+font-size: 17px;
+
+}
+}
+@media (max-width: 1000px) {
+
+
+.paragraphHolder p{
+  left:10%;
+  width: 700px;
+  font-size: 17px;
+  top:10%;
+}
+
+}
+
+@media (max-width: 799px) {
+
+  .paragraphHolder p{
+    top:5%;
+    width: 600px;
+    font-size: 15px;
+    
+  }
+
+}
+@media (max-width: 710px) {
+  .paragraphHolder p{
+    top:5%;
+    left:12%;
+    width: 559px;
+    font-size: 13px;
+    
+  }
+}
+
+@media (max-width: 640px) {
+  .paragraphHolder p{
+    top:5%;
+    left:9%;
+    width: 450px;
+    font-size: 11px;
+    
+  }
+}
+  
+@media (max-width: 499px) {
+
+  .paragraphHolder p{
+    top:1%;
+    left:5%;
+    width: 400px;
+    font-size: 10px;
+    
+  }
+
+}
+@media (max-width: 400px) {
+
+  .paragraphHolder p{
+    top:5%;
+    left:5%;
+    width: 300px;
+    font-size: 10px;
+    
+  }
+
+}

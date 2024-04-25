@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.aboutUsHeader {
+  background-color: #eb5a00;
+  height: 70px;
+  text-align: center;
+  /* Add centering properties */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutUsHeader h1 {
+  font-family: "Alfa Slab One";
+  -webkit-text-stroke: 0.5px white;
+  font-size: 24px; /* Adjust size as needed */
+  margin: 0; /* Remove default margin */
+}
+
+.paragraphHolder {
+  /* Add centering properties */
+  display: flex;
+  top:50px;
+  left:-100px;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Height should be set on the container */
+  position: relative; /* Keep it relative if needed */
+}
+
+.paragraphHolder p {
+  top:50px;
+  font-size: 21.6px;
+  font-weight: bold; /* Choose 'bold' or 'bolder' */
+  line-height: 20px;
+  text-align: justify;
+  position: relative;
+  font-family: "Montserrat";
+margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1200px) {
+
+  .paragraphHolder{
+top:0px;
+left:0px;
+      width:auto;
+  }
+
+
+.paragraphHolder p{
+width: 800px;
+font-size: 17px;
+
+}
+}
+
+@media (max-width: 1200px) {
+
+  .paragraphHolder{
+top:0px;
+      width:auto;
+  }
+
+
+.paragraphHolder p{
+left:10%;
+width: 800px;
+font-size: 17px;
+
+}
+}
+@media (max-width: 1000px) {
+
+  .paragraphHolder{
+    top:0px;
+    left: -100px;
+          width:auto;
+      }
+    
+.paragraphHolder p{
+
+  width: 700px;
+  font-size: 17px;
+
+}
+}
+
+@media (max-width: 799px) {
+  .creatorimage1 img {
+    
+    width: 300px;
+    height: 300px;
+  
+  }
+  .paragraphHolder p{
+    width: 600px;
+    font-size: 15px;
+    
+  }
+    .paragraphHolder{
+      top:0px;
+    left: -50px;
+          width:auto;
+      }
+
+}
+@media (max-width: 710px) {
+  .paragraphHolder p{
+    left:12%;
+    width: 559px;
+    font-size: 13px;
+    
+  }
+  .paragraphHolder{
+    top:0px;
+    left: -50px;
+          width:auto;
+      }
+}
+
+@media (max-width: 640px) {
+  .paragraphHolder p{
+    left:9%;
+    width: 450px;
+    font-size: 11px;
+    
+  }
+  .paragraphHolder{
+    top:0px;
+    left: -20px;
+          width:auto;
+      }
+}
+  
+@media (max-width: 499px) {
+
+  .paragraphHolder p{
+
+    width: 390px;
+    font-size: 10px;
+    
+  }
+  .paragraphHolder{
+    top:30px;
+    left: -20px;
+          width:auto;
+      }
+      .creatorimage1 img {
+    
+        width: 200px;
+        height: 200px;
+      
+      }
+}
+@media (max-width: 400px) {
+
+  .paragraphHolder p{
+    top:30px;
+
+    width: 350px;
+    font-size: 8px;
+    
+  }
+  .paragraphHolder{
+    top:10px;
+    left: -20px;
+          width:auto;
+      }
+      
+}
+@media (max-width: 360px) {
+
+  .paragraphHolder p{
+    top:30px;
+    left:10%;
+    width: 300px;
+    font-size: 7px;
+    
+  }
+  .paragraphHolder{
+    top:0px;
+    left: -20px;
+          width:auto;
+      }
+      
+}

@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+
+.paragraphHolder .p1{
+font-family: "Open Sans";
+font-weight: bold;
+position:relative;
+font-size: 30px;
+top: 25px;
+
+}
+.paragraphHolder .p2{
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 20px;
+    top: -415px;
+    position:relative;
+    display: flex;
+    width:40vw;
+    left: 105%;
+    }
+    .paragraphHolder .p3{
+        font-family: "Open Sans";
+        font-weight: bold;
+        font-size: 30px;
+        top: -385px;
+        width:400px;
+        position:relative;
+        display: flex;
+        left:105%;
+        letter-spacing: 10px;
+        }
+        .paragraphHolder .p4{
+            font-family: "Open Sans";
+            font-weight:bolder;
+            font-size: 35px;
+            letter-spacing: 5px;
+            color:#eb5a00;
+            top: -355px;
+            position:relative;
+            width:40%;
+            display: flex;
+            left:105%;
+      
+            }
+            .days{
+              width:350px;
+                top: -325px;
+                position:relative;
+                display: block;
+                left:105%;
+            }
+            .days p{
+                font-family: "Open Sans";
+                font-weight:bold;
+                font-size: 20px;     
+                margin-top: 4px;   
+                left:105%;       
+            }
+  
+      
+            
+.paragraphHolder{
+      left: 50px;
+      position:relative;
+      width: 50vw;
+      height: 674.2px;
+
+  }
+
+  /* form css*/
+
+  .form-group {
+    position: relative;
+    top: 50px;
+    margin-bottom: 20px;
+  }
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .form-group ::placeholder{
+    color:#eb5a00;
+    font-weight: bold;
+ 
+  }
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    position: relative;
+    width: 45vw;;
+    background-color: #e4e3e3;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16pX;
+    color: #eb5a00;
+  }
+  .form-group textarea {
+    height: 200px;
+  }
+  .btn {
+    margin-top: 20px;
+    position:relative;
+    display: block;
+    width: 45vw;
+    padding: 10px;
+    background-color: #eb5a00;
+    color:black;
+
+    font-weight: bold;
+    border: none;
+    -webkit-text-stroke:.2px #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+  .btn:hover {
+    background-color: #eb5a00;
+  }
+
+.footer {
+  background-color: #eb5a00;
+  color: black;
+  font-weight: bold;
+  padding: 20px;    
+  text-align: center;
+}
+.footer img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  border: 4px solid black;
+}
+.copyright {
+  font-size: 14px;
+}
+@media (max-width: 1561px) {
+    
+
+.paragraphHolder .p4{
+  font-size: 25px;
+
+}
+}
+@media (max-width: 1500px) {
+
+  .paragraphHolder .p2{
+        font-size: 15px;
+  
+  }
+ 
+}
+@media (max-width: 1385px) {
+  .paragraphHolder .p4{
+    font-size: 25px;
+  
+  }
+}
+
+@media (max-width: 1290px) {
+  .paragraphHolder .p2{
+    font-size: 12px;
+
+}  
+.hours {
+
+
+left:130%; 
+           
+}
+.hours p{
+
+
+  font-size: 20px;     
+           
+}
+.paragraphHolder .p4{
+  font-size: 20px;
+
+}
+.paragraphHolder .p3{
+ width: 300px;
+ font-size: 20px;
+
+}
+}
+@media (max-width: 1030px) {
+  .paragraphHolder .p2{
+    font-size: 12px;
+
+}  
+.hours {
+top: -500px;
+left:135%; 
+           
+}
+.hours p{
+
+
+  font-size: 16px;     
+           
+}
+.days p{
+  font-size: 15px;
+}
+.paragraphHolder .p4{
+  font-size: 15px;
+
+}
+.days{
+  width:300px;
+}
+}
+
+@media (max-width: 770px) {
+.hours {
+width:150px;
+}
+.paragraphHolder .p4{
+  font-size: 13px;
+  width: 45%;
+
+}
+.hours p{
+ font-size: 15px;
+  }
+  .paragraphHolder .p3{
+    font-size: 10px;
+    width:200px;  
+  
+  
+  }
+
+  .hours {
+    top: -450px;
+    left:135%; 
+      width: 110px;         
+    }
+    .hours p{
+    top: -420px;
+    
+      font-size: 10px;     
+               
+    }
+    .days p{
+      font-size: 10px;
+    }
+    .paragraphHolder .p2{
+      font-size: 8px;
+      width:180px;  
+    
+    
+    }
+    .days {
+      width: 180px;
+    }    
+}
+  
+
+@media (max-width: 530px) {
+  .paragraphHolder .p2{
+    font-size: 8px;
+    width:120px;  
+  
+  
+ 
+  
+  }
+
+  .paragraphHolder .p3{
+    font-size: 8px;
+    width:125px;  
+  
+  
+  }
+
+  .hours {
+    top: -389px;
+    left:135%; 
+      width: 70px;         
+    }
+    .hours p{
+    
+    
+      font-size: 4px;     
+               
+    }
+    .days p{
+      font-size: 4px;
+    }
+    .days{
+      width:120px;
+    }
+    
+    @media (max-width: 420px) {
+
+.footer img{
+  width: 50px;
+  height:50px;
+}
+
+    }
+}
+
+@media (max-width: 370px) {
+
+  .paragraphHolder .p3{
+    font-size: 10px;
+    width:100px;  
+  
+  
+  }
+  .paragraphHolder .p2{
+    font-size: 10px;
+    width:100px;  
+  
+  
+  }
+}

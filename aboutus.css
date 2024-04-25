@@ -1,0 +1,245 @@
+/* Reset default margin and padding */
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+.logo {
+    float: left;
+    margin-right: 20px;
+
+}
+.body2 {
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  width: 100vw; /* Change width to 100% to make it responsive */
+  height: 75vh;
+  margin-left: auto; /* Use margin-left and margin-right to center horizontally */
+  margin-right: auto;
+  display: block;
+  justify-content: center;
+  align-items: center; /* Change align-content to align-items */
+
+
+}
+  .aboutUsHeader {
+    background-color: #eb5a00;
+    height: 70px;
+    width: 100%;
+  }
+  .aboutUsHeader h1{
+    text-align: center;
+    align-items: center;
+    font-family: "Alfa Slab One";
+    -webkit-text-stroke:.5px white;
+position: relative;
+top:20%;
+  }
+  /* Add this CSS to your existing stylesheets or create a new one */
+
+  
+  .image-container {
+
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width:100vw;
+
+  }
+  
+  .image {
+
+    margin-top:10%;
+    text-align: center;
+    margin-right: 50px;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .image img {
+    position:relative;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .image h1 {
+    font-family: "Alfa Slab One";
+text-decoration: underline;
+text-shadow: 0px 0px 4px #eb5a00;
+    margin-top: 10px;
+    font-size: 40px;
+  }
+  .image a {
+   color:black;
+  }
+  @media (max-width: 1300px) {
+    
+    .image {
+      margin-right: 100px;
+      width: 300px;
+      height: 300px;
+    }
+    
+    .image img {
+      
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+    }
+    
+    .image h1 {
+      font-family: "Alfa Slab One";
+  text-decoration: underline;
+  text-shadow: 0px 0px 4px #eb5a00;
+      margin-top: 10px;
+      font-size: 50px;
+    }
+    .image a {
+     color:black;
+    }
+   
+  }
+  @media (max-width: 1200px) {
+    
+    .image {
+      margin-right: 100px;
+      width: 250px;
+      height: 250px;
+    }
+    
+    .image img {
+      
+      width: 250px;
+      height:250px;
+      object-fit: cover;
+    }
+    
+    .image h1 {
+      font-family: "Alfa Slab One";
+  text-decoration: underline;
+  text-shadow: 0px 0px 4px #eb5a00;
+      margin-top: 10px;
+      font-size: 50px;
+    }
+    .image a {
+     color:black;
+    }
+   
+  }
+  @media (max-width: 1060px) {
+    
+    .image {
+      margin-right: 100px;
+      width: 200px;
+      height:200px;
+    
+    .image img {
+      
+      width:200px;
+      height:200px;
+      object-fit: cover;
+    }
+    
+    .image h1 {
+      font-family: "Alfa Slab One";
+  text-decoration: underline;
+  text-shadow: 0px 0px 4px #eb5a00;
+      margin-top: 10px;
+      font-size: 50px;
+    }
+    .image a {
+     color:black;
+    }
+   
+  }}
+  @media (max-width: 910px) {
+    .image {
+      margin-right: 50px;
+      width: 200px;
+      height:200px;
+    }
+    .image img {
+      
+      width:200px;
+      height:200px;
+      object-fit: cover;
+    }
+    
+    .image h1 {
+
+      font-size: 40px;
+    }
+  }
+  
+  @media (max-width: 799px) {
+  
+    .image {
+      margin-right: 50px;
+      width: 150px;
+      height:150px;
+    }
+    .image img {
+      
+      width:150px;
+      height:150px;
+      object-fit: cover;
+    }
+    .image h1 {
+
+      font-size: 30px;
+    }
+  }
+  @media (max-width: 610px) {
+    .image {
+      margin-right: 60px;
+      width: 100px;
+      height:100px;
+    }
+    .image img {
+      left:25px;  
+      width:100px;
+      height:100px;
+      object-fit: cover;
+    }
+    .image h1 {
+
+      font-size: 25px;
+    }
+  }
+  
+  @media (max-width: 499px) {
+    .image {
+    
+      margin-right: 70px;
+      width: 70px;
+      height:70px;
+    }
+    .image img {
+
+      width:70px;
+      height:70px;
+      object-fit: cover;
+    }
+    .image h1 {
+
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 450px) {
+    .image {
+   
+      margin-right: 50px;
+      width: 50px;
+      height:50px;
+    }
+    .image h1 {
+
+      font-size: 15px;
+    }
+    .image img {
+left:6px;
+    }
+  }
+    
+  
+  

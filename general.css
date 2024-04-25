@@ -1,0 +1,10 @@
+.body1 {
+
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-width:  100vw;
+    align-content: center;
+    justify-content: center;
+  }

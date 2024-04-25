@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+  z-index: 1000;
+  position: sticky;
+  top:0px;  
+  max-width: 100%;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  background-image: linear-gradient(to left, white, #CCC);
+ 
+}
+
+nav .wrapper{
+  z-index: 1000;
+  position: sticky;
+  top:0px;  
+  max-width: 100%;
+  padding: 0px 30px;
+  height: 70px;
+  line-height: 70px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.wrapper .logo a{
+  z-index: 1000;
+  width:10%;
+  color: black;
+  font-size: 0px;
+  text-decoration: none;
+}   
+.imgclass{
+  top:20px;
+  height:70px;
+  width:100px;
+  position: relative;
+}
+
+.wrapper h1{
+  display:flex;
+  left: 120px;
+  color:#eb5a00;  
+  position:fixed;
+}
+
+.wrapper .nav-links{
+  z-index: 1000;
+  justify-content: center;
+  align-content: center;
+  display: inline-flex;
+}
+.nav-links li{
+  list-style: none;
+  margin: 0 10px; /* Add some spacing between the navigation links */
+}
+.nav-links li a{
+  cursor:pointer;
+  -webkit-text-stroke:.2px #ccc;
+  display: flex;
+  justify-content: center; /* Center the navigation links horizontally */
+  align-items: center; /* Center the navigation links vertically */
+  color: #eb5a00;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 9px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.nav-links li a:hover{
+  text-decoration: underline;
+}
+.nav-links .mobile-item{
+  z-index: 1000;
+  display: none;
+}
+.nav-links .drop-menu{
+  z-index: 1000;
+  position: absolute;
+  background: #03C04A;
+  width: 180px;
+  line-height: 45px;
+  top: 85px;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+.nav-links li:hover .drop-menu,
+.nav-links li:hover .mega-box{
+  transition: all 0.3s ease;
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+}
+.drop-menu li a{
+  z-index: 1000;
+  width: 100%;
+  display: block;
+  padding: 0 0 0 15px;
+  font-weight: 400;
+  border-radius: 0px;
+}
+.mega-box{
+  z-index: 1000;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 0 30px;
+  top: 85px;
+  opacity: 0;
+  visibility: hidden;
+}
+.mega-box .content{
+  z-index: 1000;
+  background: #03C04A;
+  padding: 25px 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+.mega-box .content .row{
+  z-index: 1000;
+  width: calc(25% - 30px);
+  line-height: 45px;
+}
+.content .row img{
+  z-index: 1000;
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+.content .row header{
+  z-index: 1000;
+  color: White;
+  font-size:20px;
+  font-weight: 500;
+  background-image: url("https://images.unsplash.com/photo-1505935428862-770b6f24f629?q=80&w=1467&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: 500px;
+  background-repeat: no-repeat ;
+
+  text-shadow: 2px 2px 4px white;
+
+}
+
+.content .row .mega-links{
+  z-index: 1000;
+  margin-left: -40px;
+  border-left: 1px solid #eb5a00;
+}
+.row .mega-links li{
+  z-index: 1000;
+  padding: 0 20px;
+}
+.row .mega-links li a{
+  z-index: 1000;
+  padding: 0px;
+  padding: 0 20px;
+  color: #eb5a00;
+  font-size: 17px;
+  display: block;
+}
+.row .mega-links li a:hover{
+  z-index: 1000;
+
+}
+.wrapper .btn{
+  z-index: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+  width: 100px;
+  background-color: transparent;
+}
+.wrapper .btn.close-btn{
+  z-index: 1000;
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 970px) {
+  .wrapper .btn{
+    display: block;
+    right: 0px;
+    top:-10px;
+  }
+  .imgclass{
+    visibility: collapse;
+  }
+  .wrapper .nav-links{
+    position: fixed;
+    
+    width: 100vw;
+    max-width: 100vw;
+    top: 0;
+    left: -100%;
+    background: white;
+    display: block;
+    padding: 50px 10px;
+    line-height: 50px;
+    overflow-y: auto;
+    box-shadow: 0px 15px 15px rgba(0,0,0,0.18);
+    transition: all 0.3s ease;
+  }
+  /* custom scroll bar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #242526;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #3A3B3C;
+  }
+  #menu-btn:checked ~ .nav-links{
+    left: 0%;
+  }
+  #menu-btn:checked ~ .btn.menu-btn{
+    display: none;
+  }
+  #close-btn:checked ~ .btn.menu-btn{
+    display: block;
+  }
+  .nav-links li{
+    margin: 15px 10px;
+  }
+  .nav-links li a{
+    padding: 0 20px;
+    display: block;
+    font-size: 20px;
+  }
+  .nav-links .drop-menu{
+    position: static;
+    opacity: 1;
+    top: 65px;
+    visibility: visible;
+    padding-left: 20px;
+    width: 100%;
+    max-height: 0px;
+    overflow: hidden;
+    box-shadow: none;
+    transition: all 0.3s ease;
+  }
+  #showDrop:checked ~ .drop-menu,
+  #showMega:checked ~ .mega-box{
+    max-height: 100%;
+  }
+  .nav-links .desktop-item{
+    display: none;
+  }
+  .nav-links .mobile-item{
+    display: block;
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .nav-links .mobile-item:hover{
+    background: white;
+  }
+  .drop-menu li{
+    margin: 0;
+  }
+  .drop-menu li a{
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  .mega-box{
+    position: static;
+    top: 65px;
+    opacity: 1;
+    visibility: visible;
+    padding: 0 20px;
+    max-height: 0px;
+    overflow:hidden;
+    transition: all 0.3s ease;
+  }
+  .mega-box .content{
+    overflow-y: auto;
+    box-shadow: none;
+    flex-direction: column;
+    padding: 20px 20px 0 20px;
+  }
+  .mega-box .content .row{
+    overflow-y: auto;
+    width: 100%;
+    margin-bottom: 15px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+  .mega-box .content .row:nth-child(1),
+  .mega-box .content .row:nth-child(2){
+    border-top: 0px;
+  }
+  .content .row .mega-links{
+    border-left: 0px;
+    padding-left: 15px;
+    overflow-y: auto;
+  }
+  .row .mega-links li{
+    margin: 0;
+  }
+  .content .row header{
+    font-size: 19px;
+  }
+  .wrapper h1{
+    left: 10px;
+  }
+}
+nav input{
+  display: none;
+}
+@media (max-width: 320px) {
+  .wrapper h1{
+    display:none;
+  }
+}
+  
+
